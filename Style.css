@@ -1,0 +1,43 @@
+.portfolio-img {
+  margin-left:-100px;
+  right:-60px;
+  
+} 
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 30px;
+    text-align: center;
+    right: 30px;
+    bottom: 30px;
+    z-index: 11;
+    animation: action 1s infinite alternate;
+  }
+
+  .btn {
+    padding:10px 25px;
+    border-radius:100px;
+  }
+  .btn-white {
+    background-color:seashell;
+    border: 2px solid #ffffff;
+  }
+   
+  @keyframes action {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-15px);
+    }
+  }
+  .progress {
+    border-radius: 10px;
+  }
+  
+  .progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+  }  
